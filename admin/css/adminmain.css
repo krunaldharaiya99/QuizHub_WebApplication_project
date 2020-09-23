@@ -1,0 +1,378 @@
+* {
+     box-sizing:border-box; 
+}
+ div.container1 {
+     width: 100%;
+}
+ page{
+     min-height:70vh;
+}
+ header {
+    height: 140px; 
+     background-color: black;
+     text-align: left;
+	color:#FFFFFF;
+
+}
+
+#commonbutton {
+    background-color:#000000;
+    border:1px solid white;
+    font-family: 'Fauna One', serif;
+    font-Weight:bold;
+    font-size:18px;
+    color:white;
+    width: auto;
+	height: 30px;
+    margin-top: 10px;
+}
+
+#addbutton {
+    background-color:#1595D0;
+    border:2px solid black;
+    font-family: 'Fauna One', serif;
+    font-Weight:bold;
+    font-size:18px;
+    color:white;
+    width: auto;
+	height: 30px;
+    margin-top: 10px;
+	padding:10px;
+}
+
+ #mySidenav a {
+     position: absolute;
+     left: -50px;
+     transition: 0.3s;
+     padding: 15px;
+     width: 100px;
+     text-decoration:none;
+     font-size: 20px;
+     color: white;
+     border-radius: 5px 5px 5px 5px;
+}
+ #mySidenav a:hover {
+     left: 0;
+}
+
+ body{
+     margin: 0;
+     padding: 0;
+     font-family: Verdana,sans-serif;
+	 background-image:url("images/bg.jpg");
+	
+}
+ .text {
+     color: #f2f2f2;
+     font-size: 15px;
+     padding: 8px 12px;
+     position: absolute;
+     bottom: 8px;
+     width: 100%;
+     text-align: center;
+}
+
+ .footer {
+     font-size: 1em;
+     line-height: 2.1875em;
+     text-transform: uppercase;
+}
+ .four.columns {
+     position: relative;
+     float: left;
+     width: 33%;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     margin: 0;
+}
+ section.bg-darkgray, nav.bg-darkgray {
+     background: #191919;
+     color: white;
+}
+ section, nav {
+     margin: 0;
+     overflow: auto;
+     padding: 1.5em 1em;
+     filter: progid: DXImageTransform.Microsoft.Alpha(enabled=false);
+     opacity: 1;
+     -moz-transition: opacity 1s ease-out 0.1s;
+     -o-transition: opacity 1s ease-out 0.1s;
+     -webkit-transition: opacity 1s ease-out;
+     -webkit-transition-delay: 0.1s;
+     transition: opacity 1s ease-out 0.1s;
+}
+ section.bg-black, nav.bg-black {
+     background: black;
+     color: white;
+}
+ .footer ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+}
+ .footer .footer--info .footer--info--contact li {
+     padding-left: 25px;
+}
+ .footer .footer--info .footer--info--contact li:before {
+     background-size: 20px 20px;
+     content: "";
+     display: inline-block;
+     height: 20px;
+     margin-left: -25px;
+     width: 25px;
+     vertical-align: middle;
+}
+ .footer a {
+     color: white;
+}
+ .footer .footer--info .footer--info--connect li {
+     display: inline-block;
+     line-height: 30px;
+     margin-left: 6px;
+     margin-right: 6px;
+     margin-top: .25em;
+}
+ .footer h3 {
+     color: #939393;
+     font-family: 'Ubuntu';
+     font-size: 1.125em;
+     font-style: italic;
+     font-weight: 400;
+     margin-bottom: 0;
+}
+ .centered {
+     margin: 0 auto;
+     max-width: 1200px;
+     padding: 0;
+}
+ a {
+     text-decoration: none;
+}
+ .footer .footer--info .footer--info--connect li a {
+     background: white;
+     border-radius: 50%;
+     display: inline-block;
+     height: 35px;
+     line-height: 50px;
+     overflow: hidden;
+     text-align: center;
+     width: 35px;
+     vertical-align: middle;
+     -moz-transition: background 0.1s ease-out;
+     -o-transition: background 0.1s ease-out;
+     -webkit-transition: background 0.1s ease-out;
+     transition: background 0.1s ease-out;
+}
+ .footer .footer--info .footer--info--connect li a img {
+     -moz-transition: all 0.25s;
+     -o-transition: all 0.25s;
+     -webkit-transition: all 0.25s;
+     transition: all 0.25s;
+     max-height: 30px;
+     max-width: 30px;
+}
+ .footer .footer--copyright p, .footer .footer--copyright .PTW16 ul, .PTW16 .footer .footer--copyright ul {
+     color: #5a5a5a;
+     font-family: 'Ubuntu';
+     font-size: 20px;
+     text-align: center;
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+ .footer .footer--info .footer--info--navigate li:before {
+     color: #939393;
+     content: "\276F";
+     display: inline-block;
+     font-size: .75em;
+     margin-right: .75em;
+     vertical-align: top;
+}
+
+/*CSS FOR registration*/
+#registration
+{
+	font-size:25px;
+	font-family: Amarnath;
+	
+}
+#regpage h3
+{
+	font-size:25px;
+	font-family: Amarnath;
+	position:relative;
+}
+#registration form
+{
+    background-color:white;
+    color:#123456;	
+    box-shadow:0px 1px 1px 1px gray;
+    width:500px;	
+    margin:30px 50px 0 20px;
+    float:left;
+    height:380px;
+    padding:10px;
+}
+#registration input
+{
+    width:250px;
+    height:25px;
+    margin-top:10px;
+    border-radius:3px;
+    padding:2px;
+    box-shadow:0px 1px 3px 0px darkgray;
+    margin:10px;
+	float:left;
+}
+#registration textarea
+{
+    width:250px;
+    margin-top:10px;
+    border-radius:3px;
+    padding:2px;
+    box-shadow:0px 1px 3px 0px darkgray;
+    margin:10px;
+	float:left;
+}
+#registration select
+{
+    width:250px;
+    height:25px;
+    margin-top:10px;
+    border-radius:3px;
+    padding:2px;
+    box-shadow:0px 1px 1px 0px darkgray;
+    margin:10px;
+	float:left;
+}
+#registration input[type=button]
+{
+    background-color:#1595D0;
+    border:1px solid white;
+    font-family: 'Fauna One', serif;
+    font-Weight:bold;
+    font-size:18px;
+    color:white;
+    width: 50%;
+	height: 40px;
+    margin-left:125px;
+    margin-top: 10px;
+}
+#registration input[type="submit"]
+{
+    background-color:#1595D0;
+    border:1px solid white;
+    font-family: 'Fauna One', serif;
+    font-Weight:bold;
+    font-size:18px;
+    color:white;
+    width: 50%;
+	height: 40px;
+    margin-left:125px;
+    margin-top: 10px;
+}
+#registration h3{ 
+    margin-top:0px;
+    color:white;
+    background-color:#1595D0;
+    text-align:center;
+    width:100%;
+    height:50px;
+    padding-top:10px;
+}
+/*CSS FOR registration*/
+#registration
+{
+	font-size:25px;
+	font-family: Amarnath;
+	
+}
+#regpage h3
+{
+	font-size:25px;
+	font-family: Amarnath;
+	position:relative;
+}
+/*review form*/
+#review form{
+    background-color:white;
+    color:#123456;	
+    box-shadow:0px 1px 1px 1px gray;
+    width:auto;	
+    margin:30px 50px 0 20px;
+    float:left;
+    height:550px;
+    padding:10px;
+}
+
+/*login page CSS */
+#loginpage h2
+{
+	font-size:35px;
+	font-family: Amarnath;
+	position:relative;
+	top:100px;
+}
+#login
+{
+	font-size:25px;
+	font-family: Amarnath;
+	text-shadow:none;
+}
+#login form{
+    background-color:white;
+    color:#123456;	
+    box-shadow:0px 1px 1px 1px gray;
+    width:350px;	
+    margin:30px 50px 0 20px;
+    float:left;
+    height:300px;
+    padding:10px;
+}
+#login input{
+    width:250px;
+    height:25px;
+    margin-top:10px;
+    border-radius:3px;
+    padding:2px;
+    box-shadow:0px 1px 3px 0px darkgray;
+    margin:10px;
+	float:left;
+}
+#login select{
+    width:250px;
+    height:25px;
+    margin-top:10px;
+    border-radius:3px;
+    padding:2px;
+    box-shadow:0px 1px 1px 0px darkgray;
+    margin:10px;
+	float:left;
+}
+#login input[type="submit"]{
+    background-color:#1595D0;
+    border:1px solid white;
+    font-family: 'Fauna One', serif;
+    font-Weight:bold;
+    font-size:18px;
+    color:white;
+    width: 50%;
+	height: 40px;
+    margin-left:125px;
+    margin-top: 10px;
+}
+#login h3{ 
+    margin-top:0px;
+    color:white;
+    background-color:#1595D0;
+    text-align:center;
+    width:100%;
+    height:50px;
+    padding-top:10px;
+}
+
+#myForm div{
+    color:red; 
+    font-size:14px;
+	width:80px
+}

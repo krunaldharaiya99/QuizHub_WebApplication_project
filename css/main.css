@@ -1,0 +1,486 @@
+* {
+     box-sizing:border-box; 
+}
+ div.container1 {
+     width: 100%;
+}
+ page{
+     min-height:70vh;
+}
+
+ header {
+    height: 140px; 
+     background-color: black;
+     text-align: left;
+	color:#FFFFFF;
+
+}
+ #images img{
+margin:5px 5px;
+-webkit-box-shadow: 2px 3px 8px #444;
+-moz-box-shadow: 2px 3px 8px #444;
+box-shadow: 2px 3px 8px #444;
+}
+#commonbutton {
+    background-color:#1595D0;
+    border:1px solid white;
+    font-family: 'Fauna One', serif;
+    font-Weight:bold;
+    font-size:18px;
+    color:white;
+    width: auto;
+	height: 40px;
+    margin-top: 10px;
+}
+
+ #mySidenav a {
+     position: absolute;
+     left: -50px;
+     transition: 0.3s;
+     padding: 15px;
+     width: 100px;
+     text-decoration:none;
+     font-size: 20px;
+     color: white;
+     border-radius: 5px 5px 5px 5px;
+}
+ #mySidenav a:hover {
+     left: 0;
+}
+
+ body{
+     margin: 0;
+     padding: 0;
+     font-family: Verdana,sans-serif;
+	 background-image:url("images/bg.jpg");
+	
+}
+ .text {
+     color: #f2f2f2;
+     font-size: 15px;
+     padding: 8px 12px;
+     position: absolute;
+     bottom: 8px;
+     width: 100%;
+     text-align: center;
+}
+ #video table {
+     border-collapse: collapse;
+}
+ #video td, th {
+    
+	 box-shadow:0px 0px 40px gray ;
+}
+ .footer {
+     font-size: 1em;
+     line-height: 2.1875em;
+     text-transform: uppercase;
+}
+ .four.columns {
+     position: relative;
+     float: left;
+     width: 33%;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     margin: 0;
+}
+ section.bg-darkgray, nav.bg-darkgray {
+     background: #191919;
+     color: white;
+}
+ section, nav {
+     margin: 0;
+     overflow: auto;
+     padding: 1.5em 1em;
+     filter: progid: DXImageTransform.Microsoft.Alpha(enabled=false);
+     opacity: 1;
+     -moz-transition: opacity 1s ease-out 0.1s;
+     -o-transition: opacity 1s ease-out 0.1s;
+     -webkit-transition: opacity 1s ease-out;
+     -webkit-transition-delay: 0.1s;
+     transition: opacity 1s ease-out 0.1s;
+}
+ section.bg-black, nav.bg-black {
+     background: black;
+     color: white;
+}
+ .footer ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+}
+ .footer .footer--info .footer--info--contact li {
+     padding-left: 25px;
+}
+ .footer .footer--info .footer--info--contact li:before {
+     background-size: 20px 20px;
+     content: "";
+     display: inline-block;
+     height: 20px;
+     margin-left: -25px;
+     width: 25px;
+     vertical-align: middle;
+}
+ .footer a {
+     color: white;
+}
+
+ .footer h3 {
+     color: #939393;
+     font-family: 'Ubuntu';
+     font-size: 1.125em;
+     font-style: italic;
+     font-weight: 400;
+     margin-bottom: 0;
+}
+ .centered {
+     margin: 0 auto;
+     max-width: 1200px;
+     padding: 0;
+}
+ a {
+     text-decoration: none;
+}
+
+ .footer .footer--copyright p, .footer .footer--copyright .PTW16 ul, .PTW16 .footer .footer--copyright ul {
+     color: #5a5a5a;
+     font-family: 'Ubuntu';
+     font-size: 20px;
+     text-align: center;
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+ .footer .footer--info .footer--info--navigate li:before {
+     color: #939393;
+     content: "\276F";
+     display: inline-block;
+     font-size: .75em;
+     margin-right: .75em;
+     vertical-align: top;
+}
+
+/*CSS FOR registration*/
+#registration
+{
+	font-size:25px;
+	font-family: Amarnath;
+	
+}
+#regpage h3
+{
+	font-size:25px;
+	font-family: Amarnath;
+	position:relative;
+}
+
+#registration form
+{
+    background-color:white;
+    color:#123456;	
+    box-shadow:0px 1px 1px 1px gray;
+    width:400px;	
+    margin:30px 50px 0 20px;
+    float:left;
+    height:340px;
+    padding:10px;
+}
+#registration input
+{
+    width:250px;
+    height:25px;
+    margin-top:10px;
+    border-radius:3px;
+    padding:2px;
+    box-shadow:0px 1px 3px 0px darkgray;
+    margin:10px;
+	float:left;
+}
+#registration textarea
+{
+    width:250px;
+    margin-top:10px;
+    border-radius:3px;
+    padding:2px;
+    box-shadow:0px 1px 3px 0px darkgray;
+    margin:10px;
+	float:left;
+}
+#registration select
+{
+    width:250px;
+    height:25px;
+    margin-top:10px;
+    border-radius:3px;
+    padding:2px;
+    box-shadow:0px 1px 1px 0px darkgray;
+    margin:10px;
+	float:left;
+}
+#registration input[type=button]
+{
+    background-color:#1595D0;
+    border:1px solid white;
+    font-family: 'Fauna One', serif;
+    font-Weight:bold;
+    font-size:18px;
+    color:white;
+    width: 50%;
+	height: 40px;
+    margin-left:125px;
+    margin-top: 10px;
+}
+#registration input[type="submit"]
+{
+    background-color:#1595D0;
+    border:1px solid white;
+    font-family: 'Fauna One', serif;
+    font-Weight:bold;
+    font-size:18px;
+    color:white;
+    width: 50%;
+	height: 40px;
+    margin-left:125px;
+    margin-top: 10px;
+}
+#registration h3{ 
+    margin-top:0px;
+    color:white;
+    background-color:#1595D0;
+    text-align:center;
+    width:100%;
+    height:50px;
+    padding-top:10px;
+}
+
+
+
+
+
+/*login page CSS */
+#loginpage h2
+{
+	font-size:35px;
+	font-family: Amarnath;
+	position:relative;
+	top:100px;
+}
+#login
+{
+	font-size:25px;
+	font-family: Amarnath;
+	text-shadow:none;
+}
+#login form{
+    background-color:white;
+    color:#123456;	
+    box-shadow:0px 1px 1px 1px gray;
+    width:350px;	
+    margin:30px 50px 0 20px;
+    float:left;
+    height:260px;
+    padding:10px;
+}
+#login input{
+    width:250px;
+    height:25px;
+    margin-top:10px;
+    border-radius:3px;
+    padding:2px;
+    box-shadow:0px 1px 3px 0px darkgray;
+    margin:10px;
+	float:left;
+}
+#login select{
+    width:250px;
+    height:25px;
+    margin-top:10px;
+    border-radius:3px;
+    padding:2px;
+    box-shadow:0px 1px 1px 0px darkgray;
+    margin:10px;
+	float:left;
+}
+#login input[type="submit"]{
+    background-color:#1595D0;
+    border:1px solid white;
+    font-family: 'Fauna One', serif;
+    font-Weight:bold;
+    font-size:18px;
+    color:white;
+    width: 50%;
+	height: 40px;
+    margin-left:125px;
+    margin-top: 10px;
+}
+#login h3{ 
+    margin-top:0px;
+    color:white;
+    background-color:#1595D0;
+    text-align:center;
+    width:100%;
+    height:50px;
+    padding-top:10px;
+}
+
+#myForm div{
+    color:red; 
+    font-size:14px;
+	width:60px
+}
+
+/*review form*/
+#review form{
+    background-color:white;
+    color:#123456;	
+    box-shadow:0px 1px 1px 1px gray;
+    width:600px;	
+    margin:40px 50px 0 40px;
+    float:center;
+    height:400px;
+    padding:10px;
+}
+
+
+
+#review textarea{
+    width:400px;
+    height:75px;
+    border-radius:5px;
+    padding:2px;
+    box-shadow:0px 1px 3px 0px darkgray;
+    margin:10px;
+	float:left;
+}
+
+#review input[type="submit"]{
+    background-color:#1595D0;
+    border:1px solid white;
+    font-family: 'Fauna One', serif;
+    font-Weight:bold;
+    font-size:18px;
+    color:white;
+    width: 50%;
+	height: 40px;
+}
+#review h3{ 
+    margin-top:0px;
+    color:white;
+    background-color:#1595D0;
+    text-align:center;
+    width:100%;
+    height:45px;
+    font-size: 30px;
+}
+
+
+
+/*forget page CSS */
+#forgetpage h2
+{
+	font-size:35px;
+	font-family: Amarnath;
+	position:relative;
+	top:100px;
+}
+#forget
+{
+	font-size:25px;
+	font-family: Amarnath;
+	text-shadow:none;
+}
+#forget form{
+    background-color:white;
+    color:#123456;	
+    box-shadow:0px 1px 1px 1px gray;
+    width:350px;	
+    margin:30px 50px 0 20px;
+    float:left;
+    height:180px;
+    padding:10px;
+}
+#forget input{
+    width:250px;
+    height:25px;
+    margin-top:10px;
+    border-radius:3px;
+    padding:2px;
+    box-shadow:0px 1px 3px 0px darkgray;
+    margin:10px;
+	float:left;
+}
+#forget select{
+    width:250px;
+    height:25px;
+    margin-top:10px;
+    border-radius:3px;
+    padding:2px;
+    box-shadow:0px 1px 1px 0px darkgray;
+    margin:10px;
+	float:left;
+}
+#forget input[type="submit"]{
+    background-color:#1595D0;
+    border:1px solid white;
+    font-family: 'Fauna One', serif;
+    font-Weight:bold;
+    font-size:18px;
+    color:white;
+    width: 50%;
+	height: 40px;
+    margin-left:125px;
+    margin-top: 10px;
+}
+#forget h3{ 
+    margin-top:0px;
+    color:white;
+    background-color:#1595D0;
+    text-align:center;
+    width:100%;
+    height:50px;
+    padding-top:10px;
+}
+/*CSS FOR quiz page*/
+.imagecontainer {
+    position: relative;
+    width: 300px;
+    height:250px;
+}
+
+.mainimage {
+  opacity: 1;
+  display: block;
+  width: 250px;
+  height:250px;
+  transition: .5s ease;
+  border:solid grey;
+  border-radius:25px;
+  backface-visibility: hidden;
+}
+
+.imagemiddle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.imagecontainer:hover .mainimage {
+  opacity: 0.3;
+}
+
+.imagecontainer:hover .imagemiddle {
+  opacity: 1;
+}
+
+.imagetext {
+  background-color: #1595D0;
+  align:center;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
